@@ -25,6 +25,7 @@ class CornerTableViewCell: UITableViewCell {
     
     private func setupUI() {
         self.backgroundColor = .clear
+        self.selectionStyle = .none
         
         let containerView = UIView(frame: .zero)
         containerView.layer.cornerRadius = 10
